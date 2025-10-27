@@ -276,6 +276,7 @@ DEBUG: packageFiles with updates (repository=JamieTanna-Mend-testing/renovate-is
 1. Run Renovate again (on a weekend)
   - Or with `RENOVATE_IGNORE_PRESETS=schedule:weekends`
   - It re-uses branch
+  - It has a pending status check, `renovate/stability-days`
 
 <details>
 
