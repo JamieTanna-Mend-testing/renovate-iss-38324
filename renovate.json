@@ -1,9 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "group:allNonMajor"
+    "config:recommended",
+    "group:allNonMajor",
+    "schedule:weekends"
   ],
-  "dependencyDashboard": true,
   "packageRules": [
     {
       "description": "Avoid packages that might have a security issue",
