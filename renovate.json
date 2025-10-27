@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": true,
   "packageRules": [
     {
       "description": "Avoid packages that might have a security issue",
