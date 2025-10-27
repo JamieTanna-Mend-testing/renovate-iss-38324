@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Avoid packages that might have a security issue",
+      "matchDatasources": [
+        "npm"
+      ],
+      "minimumReleaseAge": "3 days"
+    }
+  ]
+}
